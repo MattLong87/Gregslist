@@ -1,0 +1,112 @@
+html{
+	font-family: sans-serif;
+	font-size: 0;
+}
+
+/* Navbar */
+
+nav{
+	height: 60px;
+	background-color: lightgray;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+ul, h1, li{
+	display: inline;
+	vertical-align: middle;
+	line-height: 60px; /* trick for vertically centering text. better options? */
+}
+
+h1{
+	font-size: 22pt;
+	margin-left: 20px;
+}
+
+ul{
+	position: absolute;
+	right: 0px;
+}
+
+li{
+	margin-right: 20px;
+	color: purple;
+	font-size: 16pt;
+}
+
+/* Main */
+
+main{
+	margin-top: 90px;
+	margin-left: 60px;
+}
+
+label{
+	font-size: 14pt;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.border{
+	border: 1px solid lightgray;
+	border-radius: 2px;
+}
+
+.border.middle{
+	border-left: none;
+	border-right: none;
+}
+
+input{
+	height: 30px;
+	width: 500px;
+	font-family: sans-serif;
+	font-size: 16pt;
+	margin-top: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+img.search-button{
+	height: 30px;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+.pagenav{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+h2{
+	font-size: 16pt;
+	display: inline;
+	padding: 10px;
+
+}
+
+.link:hover{
+	text-decoration: underline;
+}
+
+.results{
+	font-size: 14pt;
+}
+
+.date, .location{
+	color: lightgray;
+}
+
+.jobtitle{
+	color: blue;
+	font-weight: bold;
+}
+
+span{
+	margin-left: 10px;
+}
+
+.result{
+	margin-bottom: 15px;
+}
